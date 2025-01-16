@@ -1,0 +1,8 @@
+llm:
+  name: "internlm"  # LLM的名称
+  model: "internlm2_5-7b-chat"  # 使用的模型名称，例如 GPT-4
+  api_key: "sk-xctxkxuwiryvjbrnjuzndcdshagbxhmlqeavlstfoyelhawv"  # API 密钥
+  endpoint: "https://api.siliconflow.cn/v1"  # API 端点
+  temperature: 0.7  # 模型的生成温度（可选）
+  max_tokens: 150  # 最大 token 数量（可选）
+  language: "en"  # 模型语言（可选）
