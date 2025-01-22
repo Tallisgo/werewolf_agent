@@ -1,18 +1,5 @@
-<html>
-<head>
-  <style>
-    .art-text {
-      font-family: 'Courier New', Courier, monospace;
-      font-size: 75px;
-      color: #ADD8E6; /* 番茄红 */
-      text-shadow: 2px 2px 4px #000000; /* 文字阴影 */
-    }
-  </style>
-</head>
-<body>
-  <div class="art-text"> Werewolf: multi agents</div>
-</body>
-</html>
+<h1 style="font-family: 'Courier New', monospace; color: #ADD8E6;">Werewolf: Multi Agents</h1>
+
 
 
 
