@@ -1,8 +1,45 @@
 llm:
-  name: "internlm"  # LLM的名称
-  model: "internlm2_5-7b-chat"  # 使用的模型名称，例如 GPT-4
-  api_key: "sk-xctxkxuwiryvjbrnjuzndcdshagbxhmlqeavlstfoyelhawv"  # API 密钥
-  endpoint: "https://api.siliconflow.cn/v1"  # API 端点
-  temperature: 0.7  # 模型的生成温度（可选）
+  name: "Meta"  # LLM的名称
+  model_name: "meta-llama/Meta-Llama-3.1-8B-Instruct"  # 使用的模型名称，例如 GPT-4
+  api_key: "api_key"  # API 密钥
+  base_url: "https://api.siliconflow.cn/v1"  # API 端点
+  temperature: 0.8  # 模型的生成温度（可选）
   max_tokens: 150  # 最大 token 数量（可选）
-  language: "en"  # 模型语言（可选）
+  stream: False  # 是否启用流式传输（可选）
+
+
+
+Players:
+  Player1:
+    name: "Player1"
+    model: "OpenAIChat"
+    agent: "OpenaiBasedAgent"
+
+
+  Player2:
+    name: "Player2"
+    model: "OpenAIChat"
+    agent: "OpenaiBasedAgent"
+
+
+  Player3:
+    name: "Player3"
+    model: "OpenAIChat"
+    agent: "OpenaiBasedAgent"
+
+
+  Player4:
+    name: "Player4"
+    model: "OpenAIChat"
+    agent: "OpenaiBasedAgent"
+
+  Player5:
+    name: "Player5"
+    model: "OpenAIChat"
+    agent: "OpenaiBasedAgent"
+
+
+  Player6:
+    name: "Player6"
+    model: "OpenAIChat"
+    agent: "OpenaiBasedAgent"
